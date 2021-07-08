@@ -11,10 +11,14 @@ use Thelia\Controller\Admin\AdminController;
 use Thelia\Core\HttpFoundation\Request;
 use Thelia\Core\Security\AccessManager;
 use Thelia\Core\Security\Resource\AdminResources;
+use Symfony\Component\Routing\Annotation\Route;
 use Thelia\Tools\URL;
 
 class ConfigurationController extends AdminController
 {
+    /**
+     * @Route("/admin/module/devbanner/save", name="save", methods="post")
+     */
     public function Save(Request $request)
     {
         if (null !== $response = $this->checkAuth([AdminResources::MODULE], ['DevBanner'], AccessManager::UPDATE)) {
