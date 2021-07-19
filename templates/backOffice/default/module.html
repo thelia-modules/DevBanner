@@ -1,1 +1,9 @@
-<div class="alert alert-danger text-center">{$message nofilter}</div>
+<div class="alert alert-danger text-center">
+    {$message nofilter}
+</div>
+
+{flash type="devBanner-error"}
+    <div class=" alert alert-danger">
+        {$MESSAGE}
+    </div>
+{/flash}

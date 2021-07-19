@@ -10,9 +10,8 @@
         -->
     </loops>
 
-    <forms>
-        <form name="DevBanner.form" class="DevBanner\Form\DevBannerForm" />
-    </forms>
+<!--    <forms>-->
+<!--    </forms>-->
 
     <commands>
         <!--

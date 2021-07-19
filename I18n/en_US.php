@@ -11,5 +11,5 @@
  */
 
 return [
-    'The content to display' => 'The content to display'
+    'The content to display' => 'The content to display',
 ];

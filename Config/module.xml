@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://thelia.net/schema/dic/module http://thelia.net/schema/dic/module/module-2_2.xsd">
     <fullnamespace>DevBanner\DevBanner</fullnamespace>
     <descriptive locale="en_US">
-        <title>display a customizable banner on the top of the backOffice</title>
+        <title>Display a customizable banner on the top of the backOffice</title>
         <!--
         <subtitle></subtitle>
         <description></description>
@@ -12,7 +12,7 @@
         -->
     </descriptive>
     <descriptive locale="fr_FR">
-        <title>affiche une bannière personnalisable en haut du backOffice </title>
+        <title>Affiche une bannière personnalisable en haut du backOffice </title>
     </descriptive>
     <!-- <logo></logo> -->
     <!--<images-folder>images</images-folder>-->

@@ -1,18 +1,26 @@
 <?php
 
+/*
+ * This file is part of the Thelia package.
+ * http://www.thelia.net
+ *
+ * (c) OpenStudio <info@thelia.net>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 namespace DevBanner\Form;
 
 use DevBanner\DevBanner;
-use Metabase\Metabase;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Thelia\Core\Translation\Translator;
 use Thelia\Form\BaseForm;
 
-class DevBannerForm extends BaseForm
+class MainForm extends BaseForm
 {
-    protected function buildForm()
+    protected function buildForm(): void
     {
         $translator = Translator::getInstance();
         $this->formBuilder
@@ -28,8 +36,4 @@ class DevBannerForm extends BaseForm
             );
     }
 
-    public static function getName(): string
-    {
-        return 'devBannerForm';
-    }
 }
